@@ -1,6 +1,6 @@
 <?php
 
-Route::prefix('api')->middleware('api')->group(function () {
+Route::middleware('api')->group(function () {
     Route::prefix('sub-district')->name('sub-district.')->group(function () {
         Route::get('all', 'TheLink\ThaiAddress\Controllers\ThaiAddressController@getAllSubDistricts')->name('all');
         Route::get('{id}', 'TheLink\ThaiAddress\Controllers\ThaiAddressController@getSubDistrict')->name('get');
