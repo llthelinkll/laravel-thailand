@@ -1,6 +1,6 @@
 <?php
 
-namespace Baraear\ThaiAddress\Traits;
+namespace TheLink\ThaiAddress\Traits;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Eloquent\Builder;

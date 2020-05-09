@@ -1,12 +1,12 @@
 <?php
 
-namespace Baraear\ThaiAddress\Models;
+namespace TheLink\ThaiAddress\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Baraear\ThaiAddress\Traits\SearchableTrait as Searchable;
-use Baraear\ThaiAddress\Contracts\SubDistrict as SubDistrictContract;
+use TheLink\ThaiAddress\Traits\SearchableTrait as Searchable;
+use TheLink\ThaiAddress\Contracts\SubDistrict as SubDistrictContract;
 
 class SubDistrict extends Model implements SubDistrictContract
 {

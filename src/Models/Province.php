@@ -1,11 +1,11 @@
 <?php
 
-namespace Baraear\ThaiAddress\Models;
+namespace TheLink\ThaiAddress\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use Baraear\ThaiAddress\Traits\SearchableTrait as Searchable;
-use Baraear\ThaiAddress\Contracts\Province as ProvinceContract;
+use TheLink\ThaiAddress\Traits\SearchableTrait as Searchable;
+use TheLink\ThaiAddress\Contracts\Province as ProvinceContract;
 
 class Province extends Model implements ProvinceContract
 {

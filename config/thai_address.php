@@ -3,10 +3,10 @@
 return [
 
     'models' => [
-        'sub_district' => Baraear\ThaiAddress\Models\SubDistrict::class,
-        'district' => Baraear\ThaiAddress\Models\District::class,
-        'province' => Baraear\ThaiAddress\Models\Province::class,
-        'postal_code' => Baraear\ThaiAddress\Models\PostalCode::class,
+        'sub_district' => TheLink\ThaiAddress\Models\SubDistrict::class,
+        'district' => TheLink\ThaiAddress\Models\District::class,
+        'province' => TheLink\ThaiAddress\Models\Province::class,
+        'postal_code' => TheLink\ThaiAddress\Models\PostalCode::class,
     ],
 
     'table_names' => [

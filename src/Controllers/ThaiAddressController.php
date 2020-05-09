@@ -1,16 +1,16 @@
 <?php
 
-namespace Baraear\ThaiAddress\Controllers;
+namespace TheLink\ThaiAddress\Controllers;
 
-use Baraear\ThaiAddress\Models\District;
-use Baraear\ThaiAddress\Models\Province;
-use Baraear\ThaiAddress\Models\PostalCode;
-use Baraear\ThaiAddress\Models\SubDistrict;
-use Baraear\ThaiAddress\Resources\DistrictResource;
-use Baraear\ThaiAddress\Resources\ProvinceResource;
-use Baraear\ThaiAddress\Resources\PostalCodeResource;
-use Baraear\ThaiAddress\Resources\SubDistrictResource;
-use Baraear\ThaiAddress\Resources\ThaiAddressResource;
+use TheLink\ThaiAddress\Models\District;
+use TheLink\ThaiAddress\Models\Province;
+use TheLink\ThaiAddress\Models\PostalCode;
+use TheLink\ThaiAddress\Models\SubDistrict;
+use TheLink\ThaiAddress\Resources\DistrictResource;
+use TheLink\ThaiAddress\Resources\ProvinceResource;
+use TheLink\ThaiAddress\Resources\PostalCodeResource;
+use TheLink\ThaiAddress\Resources\SubDistrictResource;
+use TheLink\ThaiAddress\Resources\ThaiAddressResource;
 use Illuminate\Routing\Controller;
 
 class ThaiAddressController extends Controller

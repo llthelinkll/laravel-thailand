@@ -1,18 +1,18 @@
 {
-    "name": "baraear/laravel-thailand",
+    "name": "thelink/laravel-thailand",
     "description": "The package may help Laravel developer store user address by easily way",
     "license": "MIT",
     "authors": [
         {
-            "name": "baraear",
-            "email": "baraear@gmail.com"
+            "name": "thelink",
+            "email": "s207.mos@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {}, 
     "autoload": { 
         "psr-4": { 
-            "Baraear\\ThaiAddress\\": "src/" 
+            "TheLink\\ThaiAddress\\": "src/" 
         } 
     } 
 }

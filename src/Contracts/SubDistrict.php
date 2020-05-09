@@ -1,6 +1,6 @@
 <?php
 
-namespace Baraear\ThaiAddress\Contracts;
+namespace TheLink\ThaiAddress\Contracts;
 
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

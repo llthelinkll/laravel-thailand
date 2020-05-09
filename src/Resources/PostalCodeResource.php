@@ -1,6 +1,6 @@
 <?php
 
-namespace Baraear\ThaiAddress\Resources;
+namespace TheLink\ThaiAddress\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

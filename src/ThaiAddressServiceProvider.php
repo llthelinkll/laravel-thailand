@@ -1,13 +1,13 @@
 <?php
 
-namespace Baraear\ThaiAddress;
+namespace TheLink\ThaiAddress;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Application as LaravelApplication;
-use Baraear\ThaiAddress\Contracts\District as DistrictContract;
-use Baraear\ThaiAddress\Contracts\Province as ProvinceContract;
-use Baraear\ThaiAddress\Contracts\PostalCode as PostalCodeContract;
-use Baraear\ThaiAddress\Contracts\SubDistrict as SubDistrictContract;
+use TheLink\ThaiAddress\Contracts\District as DistrictContract;
+use TheLink\ThaiAddress\Contracts\Province as ProvinceContract;
+use TheLink\ThaiAddress\Contracts\PostalCode as PostalCodeContract;
+use TheLink\ThaiAddress\Contracts\SubDistrict as SubDistrictContract;
 
 class ThaiAddressServiceProvider extends ServiceProvider
 {

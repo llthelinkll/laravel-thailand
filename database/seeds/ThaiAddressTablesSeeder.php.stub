@@ -1,9 +1,9 @@
 <?php
 
-use Baraear\ThaiAddress\Models\District;
-use Baraear\ThaiAddress\Models\PostalCode;
-use Baraear\ThaiAddress\Models\Province;
-use Baraear\ThaiAddress\Models\SubDistrict;
+use TheLink\ThaiAddress\Models\District;
+use TheLink\ThaiAddress\Models\PostalCode;
+use TheLink\ThaiAddress\Models\Province;
+use TheLink\ThaiAddress\Models\SubDistrict;
 use Illuminate\Database\Seeder;
 
 class ThaiAddressTablesSeeder extends Seeder
