@@ -68,10 +68,10 @@ class CreateThaiAddressTables extends Migration
     {
         $tableNames = config('thai_address.table_names');
 
-        Schema::dropIfExists($tableNames['province']);
-        Schema::dropIfExists($tableNames['district']);
-        Schema::dropIfExists($tableNames['sub_district']);
         Schema::dropIfExists($tableNames['postal_code']);
+        Schema::dropIfExists($tableNames['sub_district']);
+        Schema::dropIfExists($tableNames['district']);
+        Schema::dropIfExists($tableNames['province']);
     }
 
 }
