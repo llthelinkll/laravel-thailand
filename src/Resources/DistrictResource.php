@@ -2,9 +2,9 @@
 
 namespace Baraear\ThaiAddress\Resources;
 
-use Illuminate\Http\Resources\Json\Resource;
+use Illuminate\Http\Resources\Json\JsonResource;
 
-class DistrictResource extends Resource
+class DistrictResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
